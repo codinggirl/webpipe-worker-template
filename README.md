@@ -16,10 +16,10 @@ npm install -g @cloudflare/wrangler
 wrangler login
 ```
 
-- Generate from [webpipe-cloudflare-worker-template](https://github.com/codinggirl/webpipe-worker-template)
+- Generate from [webpipe-worker-template](https://github.com/codinggirl/webpipe-worker-template)
 
 ```sh
-wrangler generate webpipe https://github.com/codinggirl/webpipe-cloudflare-worker-template
+wrangler generate webpipe https://github.com/codinggirl/webpipe-worker-template
 ```
 
 - Edit domain mapping rules in `lib/worker.js`.
