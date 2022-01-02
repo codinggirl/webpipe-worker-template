@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "webpipe-worker",
+  "version": "0.0.0",
+  "description": "webpipe worker.",
+  "main": "lib/worker.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naran, Rongxue <naran.rongxue@codinggirl.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^2.2.2"
+  }
+}

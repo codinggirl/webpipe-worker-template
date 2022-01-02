@@ -1,0 +1,15 @@
+name = "webpipe-dev"
+account_id = ''
+
+type = 'javascript'
+workers_dev = true
+compatibility_date = "2022-01-02"
+
+[build.upload]
+format = "modules"
+dir = './lib'
+main = 'worker.js'
+
+[[build.upload.rules]]
+type = "ESModule"
+globs = ["**/*.js"]
